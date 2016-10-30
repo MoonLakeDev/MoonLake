@@ -119,8 +119,75 @@ public enum Sound {
     方块_音符盒_钢琴("note_piano", "block_note_harp"),
     方块_音符盒_棍棒("note_sticks", "block_note_hat"),
     方块_音符盒_小鼓("note_snare_drum", "block_note_snare"),
-    方块_音符盒_PLING("note_pling", "block_note_pling"),
+    方块_音符盒_叮("note_pling", "block_note_pling"),
 
+    方块_活塞_缩回("piston_retract", "block_piston_contract"),
+    方块_活塞_伸展("piston_extend", "block_piston_extend"),
+
+    方块_传送门_呼啸("portal", "block_portal_ambient"),
+    方块_传送门_进入("portal_travel", "block_portal_travel"),
+    方块_传送门_触发("portal_trigger", "block_portal_trigger"),
+
+    方块_红石火把_熄灭(9, "block_redstone_torch_burnout"),
+
+    方块_沙类_破坏("dig_sand", "block_sand_break"),
+    方块_沙类_落下(9, "block_sand_fall"),
+    方块_沙类_撞击(9, "block_sand_hit"),
+    方块_沙类_放置(9, "block_sand_place"),
+    方块_沙类_步调("step_sand", "block_sand_step"),
+
+    方块_史莱姆_破坏(9, "block_slime_break"),
+    方块_史莱姆_落下(9, "block_slime_fall"),
+    方块_史莱姆_撞击(9, "block_slime_hit"),
+    方块_史莱姆_放置(9, "block_slime_place"),
+    方块_史莱姆_步调(9, "block_slime_step"),
+
+    方块_雪类_破坏("dig_snow", "block_snow_break"),
+    方块_雪类_落下(9, "block_snow_fall"),
+    方块_雪类_撞击(9, "block_snow_hit"),
+    方块_雪类_放置(9, "block_snow_place"),
+    方块_雪类_步调("step_snow", "block_snow_step"),
+
+    方块_石类_破坏("dig_stone", "block_stone_break"),
+    方块_石类_落下(9, "block_stone_fall"),
+    方块_石类_撞击(9, "block_stone_hit"),
+    方块_石类_放置(9, "block_stone_place"),
+    方块_石类_步调("step_stone", "block_stone_step"),
+    方块_石质_压力板_关闭(9, "block_stone_pressureplate_click_off"),
+    方块_石质_压力板_触发(9, "block_stone_pressureplate_click_on"),
+
+    方块_拌线钩_连接(9, "block_tripwire_attach"),
+    方块_拌线钩_关闭(9, "block_tripwire_click_off"),
+    方块_拌线钩_触发(9, "block_tripwire_click_on"),
+    方块_拌线钩_分离(9, "block_tripwire_detach"),
+
+    方块_睡莲_放置(9, "block_waterlily_place"),
+    方块_水_流动("water", "block_water_ambient"),
+
+    方块_木质门_关闭(9, "block_wooden_door_close"),
+    方块_木质门_打开(9, "block_wooden_door_open"),
+
+    方块_木质活板门_关闭(9, "block_wooden_trapdoor_close"),
+    方块_木质活板门_打开(9, "block_wooden_trapdoor_open"),
+
+    方块_木类_破坏("dig_wood", "block_wood_break"),
+    方块_木类_落下(9, "block_wood_fall"),
+    方块_木类_撞击(9, "block_wood_hit"),
+    方块_木类_放置(9, "block_wood_place"),
+    方块_木类_步调("step_wood", "block_wood_step"),
+    方块_木质_压力板_关闭(9, "block_wood_pressureplate_click_off"),
+    方块_木质_压力板_触发(9, "block_wood_pressureplate_click_on"),
+
+    附魔_荆棘_撞击(9, "enchant_thorns_hit"),
+
+    实体_盔甲架_破坏(9, "entity_armorstand_break"),
+    实体_盔甲架_落下(9, "entity_armorstand_fall"),
+    实体_盔甲架_撞击(9, "entity_armorstand_hit"),
+    实体_盔甲架_放置(9, "entity_armorstand_place"),
+
+    实体_弓箭_撞击("arrow_hit", "entity_arrow_hit"),
+    实体_弓箭_撞击玩家("successful_hit", "entity_arrow_hit_player"),
+    实体_弓箭_射出("shoot_arrow", "entity_arrow_shoot"),
 
     ;
 
